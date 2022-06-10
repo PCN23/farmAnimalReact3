@@ -1,5 +1,4 @@
 import './App.css';
-import { animals } from './AnimalList';
 
 import Header from './Header.js';
 import Main from './Main.js';
@@ -12,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main animals={animals}/>
+      <Main />
       <Footer />
     </div>
   );
