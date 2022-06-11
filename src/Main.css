@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.animal-row{
+    display: flex;
+    flex-direction: row;
+}
