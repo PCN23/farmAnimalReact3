@@ -2,7 +2,6 @@ import React from 'react';
 import AnimalCard from './AnimalCard.js';
 
 export default function AnimalList({ animals }) {
-  console.log(animals);
   return (
     <div className='animal-row'>
       {
@@ -14,11 +13,5 @@ export default function AnimalList({ animals }) {
   );
 }
 
-
-
-
-
-
-  
 
 
