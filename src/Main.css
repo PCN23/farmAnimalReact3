@@ -4,3 +4,7 @@ main {
     width: 100vw;
     background-size: cover;
 }
+.animal-row{
+    display: flex;
+    flex-direction: row;
+}
